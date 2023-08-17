@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing Router links in the Header > Header snapshot 1`] = `
+"<header><img alt=\\"Vue logo\\" class=\\"logo\\" src=\\"/src/assets/logo.svg\\" width=\\"125\\" height=\\"125\\">
+  <div class=\\"wrapper\\">
+    <div data-v-e17ea971=\\"\\" class=\\"greetings\\">
+      <h1 data-v-e17ea971=\\"\\" class=\\"green\\">You did it!</h1>
+      <h3 data-v-e17ea971=\\"\\"> You’ve successfully created a project with <a data-v-e17ea971=\\"\\" href=\\"https://vitejs.dev/\\" target=\\"_blank\\" rel=\\"noopener\\">Vite</a> + <a data-v-e17ea971=\\"\\" href=\\"https://vuejs.org/\\" target=\\"_blank\\" rel=\\"noopener\\">Vue 3</a>. What's next? </h3>
+    </div>
+    <form data-v-e17ea971=\\"\\"><input type=\\"email\\" placeholder=\\"your@email.com\\" required=\\"\\"><button type=\\"submit\\">Submit</button></form>
+    <nav>
+      <!-- Break snapshot test --><a href=\\"/\\" class=\\"router-link-active router-link-exact-active\\" id=\\"link\\" aria-current=\\"page\\">Home</a><!-- <RouterLink type=\\"button\\" to=\\"/about\\">About</RouterLink> --><a href=\\"/about\\" class=\\"\\" data-testid=\\"push-to-about\\">About</a>
+    </nav>
+  </div>
+</header>"
+`;
